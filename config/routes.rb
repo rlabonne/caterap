@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+
+  get 'dashboard' => 'dashboard#dash'
+
   root 'welcome#index'
 
   get 'about' => 'welcome#about'
