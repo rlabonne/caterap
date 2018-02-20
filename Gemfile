@@ -9,13 +9,12 @@ end
 gem 'rails', '~> 5.1.2'
 
 group :production do
-  # Use pg as the production database for Active Record
+  # Use postgres as the production database for Active Record
   gem 'pg'
 end
 
 group :development do
-  # Use sqlite3 as the development database for Active Record
-  gem 'sqlite3'
+  gem 'pg'
   gem 'web-console', '~> 2.0'
 end
 
